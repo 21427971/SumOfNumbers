@@ -9,9 +9,8 @@ namespace SumOfNumbers
     class Program
     {
         static void Main(string[] args)
-        {
-           
-             int sum;
+        {           
+            int sum;
              sum = 0;
              double avg;
              int i = 0;
@@ -22,17 +21,13 @@ namespace SumOfNumbers
              for (i = 1; i <= 6; i++)
              {
                  Console.Write("Number-{0} :", i);
-
                  n = int.Parse(Console.ReadLine());
                  sum += n;
              }
              avg = sum / 6.0;
              Console.Write("The sum of 6 numbers is : {0}\nThe Average is : {1}\n", sum, avg);
-
-
-
-            //While loop to calculate the aregae and the sum of 5 numbers
             
+            //While loop to calculate the aregae and the sum of 5 numbers          
             int total = 0;
             int count = 0;
             int num = 0;
